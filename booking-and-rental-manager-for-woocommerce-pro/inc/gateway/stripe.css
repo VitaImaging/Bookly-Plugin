@@ -1,0 +1,66 @@
+.StripeElement {
+    box-sizing: border-box;
+    padding: 12px 14px;
+    height: 45px;
+    border: 1px solid #d3d3d3;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 2px 4px 0 #cff7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+.rbfw_stripe_form_wrap {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#rbfw-stripe-card-element {
+    width: 100%;
+}
+
+.rbfw_mps_payment_form_wrap label {
+    display: block;
+    width: 100%;
+}
+
+.rbfw_stripe_form_wrap label {
+    margin-bottom: 10px;
+}
+
+#rbfw-stripe-card-errors {
+    padding-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.rbfw_stripe_form_wrap button {
+    background: var(--rbfw_single_page_base_color4);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    font-weight: normal;
+    width: 100%;
+    position: relative;
+}
+
+.rbfw_mps_stripe_pay_button {
+    border: 0
+}
