@@ -1,0 +1,1018 @@
+# Copyright (C) 2022 Booking and Rental Manager Pro
+# This file is distributed under the same license as the Booking and Rental Manager Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking and Rental Manager Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/booking-and-rental-manager-for-woocommerce-pro\n"
+"POT-Creation-Date: 2022-09-05 16:33:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/admin_settings.php:7
+msgid "PDF Settings"
+msgstr ""
+
+#: inc/admin_settings.php:11
+msgid "Email Settings"
+msgstr ""
+
+#: inc/admin_settings.php:15
+msgid "Report Settings"
+msgstr ""
+
+#: inc/admin_settings.php:27
+msgid "Send Ticket"
+msgstr ""
+
+#: inc/admin_settings.php:28
+msgid "Do you want to send PDF ticket as an attachment with the confirmation email"
+msgstr ""
+
+#: inc/admin_settings.php:32
+msgid "No"
+msgstr ""
+
+#: inc/admin_settings.php:33
+msgid "Yes"
+msgstr ""
+
+#: inc/admin_settings.php:39
+msgid "Logo URL"
+msgstr ""
+
+#: inc/admin_settings.php:40
+msgid "Add your custom logo what will appear on the PDF"
+msgstr ""
+
+#: inc/admin_settings.php:46
+msgid "PDF Background Image URL"
+msgstr ""
+
+#: inc/admin_settings.php:47
+msgid "You can add a custom Background Image for PDF. The image width should be 680px"
+msgstr ""
+
+#: inc/admin_settings.php:53
+msgid "Company address"
+msgstr ""
+
+#: inc/admin_settings.php:54
+msgid "Add your company address"
+msgstr ""
+
+#: inc/admin_settings.php:60
+msgid "Phone Number"
+msgstr ""
+
+#: inc/admin_settings.php:61
+msgid "Add company phone number here"
+msgstr ""
+
+#: inc/admin_settings.php:68
+msgid "Terms & Condition Title"
+msgstr ""
+
+#: inc/admin_settings.php:69 inc/admin_settings.php:76
+msgid "This T & C Text will display in the PDF footer"
+msgstr ""
+
+#: inc/admin_settings.php:75
+msgid "Terms & Condition Text"
+msgstr ""
+
+#: inc/admin_settings.php:82
+msgid "PDF Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:83
+msgid "Select PDF Body Background Color"
+msgstr ""
+
+#: inc/admin_settings.php:89
+msgid "PDF Text Color"
+msgstr ""
+
+#: inc/admin_settings.php:90
+msgid "Select PDF Body text Color"
+msgstr ""
+
+#: inc/admin_settings.php:98
+msgid "Send Email on"
+msgstr ""
+
+#: inc/admin_settings.php:99
+msgid "Send email with the ticket as attachment when these order status comes"
+msgstr ""
+
+#: inc/admin_settings.php:102
+msgid "Processing"
+msgstr ""
+
+#: inc/admin_settings.php:103
+msgid "Completed"
+msgstr ""
+
+#: inc/admin_settings.php:108
+msgid "Email Subject"
+msgstr ""
+
+#: inc/admin_settings.php:109
+msgid "Set email subject here"
+msgstr ""
+
+#: inc/admin_settings.php:115
+msgid "Email Content"
+msgstr ""
+
+#: inc/admin_settings.php:116
+msgid "Set the email body content here"
+msgstr ""
+
+#: inc/admin_settings.php:122
+msgid "Email From Name"
+msgstr ""
+
+#: inc/admin_settings.php:124
+msgid "Booking Management Department"
+msgstr ""
+
+#: inc/admin_settings.php:129
+msgid "Email From"
+msgstr ""
+
+#: inc/admin_settings.php:131
+msgid "info@example.com"
+msgstr ""
+
+#: inc/admin_settings.php:139
+msgid "Ticket no."
+msgstr ""
+
+#: inc/admin_settings.php:141
+msgid "Enable/Disable Ticket no. field"
+msgstr ""
+
+#: inc/admin_settings.php:145 inc/attendee_list_dashboard.php:342
+msgid "Name"
+msgstr ""
+
+#: inc/admin_settings.php:147
+msgid "Enable/Disable Name field"
+msgstr ""
+
+#: inc/admin_settings.php:151 inc/attendee_list_dashboard.php:160
+#: inc/attendee_list_dashboard.php:345 inc/booking_in_calender.php:48
+#: inc/csv_export.php:28
+msgid "Email"
+msgstr ""
+
+#: inc/admin_settings.php:153
+msgid "Enable/Disable Email field"
+msgstr ""
+
+#: inc/admin_settings.php:157 inc/attendee_list_dashboard.php:161
+#: inc/attendee_list_dashboard.php:344 inc/booking_in_calender.php:49
+#: inc/csv_export.php:31
+msgid "Phone"
+msgstr ""
+
+#: inc/admin_settings.php:159
+msgid "Enable/Disable Phone field"
+msgstr ""
+
+#: inc/admin_settings.php:163 inc/attendee_list_dashboard.php:162
+#: inc/booking_in_calender.php:50 inc/csv_export.php:34
+msgid "Address"
+msgstr ""
+
+#: inc/admin_settings.php:165
+msgid "Enable/Disable Address field"
+msgstr ""
+
+#: inc/admin_settings.php:169
+msgid "Ticket Type"
+msgstr ""
+
+#: inc/admin_settings.php:171
+msgid "Enable/Disable Ticket Type field"
+msgstr ""
+
+#: inc/admin_settings.php:175
+msgid "Order no."
+msgstr ""
+
+#: inc/admin_settings.php:177
+msgid "Enable/Disable Order no. field"
+msgstr ""
+
+#: inc/admin_settings.php:181
+msgid "Date & Time"
+msgstr ""
+
+#: inc/admin_settings.php:183
+msgid "Enable/Disable Date & Time field"
+msgstr ""
+
+#: inc/admin_settings.php:187 inc/attendee_list_dashboard.php:174
+#: inc/booking_in_calender.php:59 inc/csv_export.php:55
+msgid "Order Status"
+msgstr ""
+
+#: inc/admin_settings.php:189
+msgid "Enable/Disable Order Status field"
+msgstr ""
+
+#: inc/admin_settings.php:193
+msgid "Price"
+msgstr ""
+
+#: inc/admin_settings.php:195
+msgid "Enable/Disable Price field"
+msgstr ""
+
+#: inc/admin_settings.php:199 inc/attendee_list_dashboard.php:178
+#: inc/booking_in_calender.php:63 inc/csv_export.php:61
+msgid "Payment Method"
+msgstr ""
+
+#: inc/admin_settings.php:201
+msgid "Enable/Disable Payment Method field"
+msgstr ""
+
+#: inc/admin_settings.php:205 inc/attendee_list_dashboard.php:171
+#: inc/csv_export.php:49 inc/woocommerce/rbfw_show_cart_function.php:258
+msgid "Pickup Point"
+msgstr ""
+
+#: inc/admin_settings.php:207
+msgid "Enable/Disable Pickup Point field"
+msgstr ""
+
+#: inc/admin_settings.php:211 inc/attendee_list_dashboard.php:172
+#: inc/csv_export.php:52 inc/woocommerce/rbfw_show_cart_function.php:262
+msgid "Drop-off Point"
+msgstr ""
+
+#: inc/admin_settings.php:213
+msgid "Enable/Disable Drop-off Point field"
+msgstr ""
+
+#: inc/admin_settings.php:217 inc/attendee_list_dashboard.php:179
+#: inc/csv_export.php:64
+msgid "Extra Service"
+msgstr ""
+
+#: inc/admin_settings.php:219
+msgid "Enable/Disable Extra Service field"
+msgstr ""
+
+#: inc/admin_settings.php:233
+msgid "Payment System"
+msgstr ""
+
+#: inc/admin_settings.php:242
+msgid "Currency"
+msgstr ""
+
+#: inc/admin_settings.php:243
+msgid "Please choose the currency if mage payment system is enabled."
+msgstr ""
+
+#: inc/admin_settings.php:250
+msgid "Currency position"
+msgstr ""
+
+#: inc/admin_settings.php:251
+msgid "This controls the position of the currency symbol if mage payment system is enabled."
+msgstr ""
+
+#: inc/admin_settings.php:263
+msgid "Number of decimals"
+msgstr ""
+
+#: inc/admin_settings.php:264
+msgid "This sets the number of decimal points shown in displayed prices. It will work if mage payment system is enabled."
+msgstr ""
+
+#: inc/admin_settings.php:270
+msgid "Account creation"
+msgstr ""
+
+#: inc/admin_settings.php:271
+msgid "Allow customers to create an account during checkout."
+msgstr ""
+
+#: inc/admin_settings.php:277
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/admin_settings.php:285
+msgid "Gateway Environment"
+msgstr ""
+
+#: inc/admin_settings.php:296
+msgid "PayPal Settings"
+msgstr ""
+
+#: inc/admin_settings.php:302
+msgid "Client ID"
+msgstr ""
+
+#: inc/admin_settings.php:308 inc/admin_settings.php:326
+msgid "Secret Key"
+msgstr ""
+
+#: inc/admin_settings.php:315
+msgid "Stripe Settings"
+msgstr ""
+
+#: inc/admin_settings.php:320
+msgid "Publishable Key"
+msgstr ""
+
+#: inc/admin_settings.php:332
+msgid "Postal/Zip Code Field"
+msgstr ""
+
+#: inc/admin_settings.php:333
+msgid "Displays Postal/Zip code field in the stripe form."
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:6 inc/attendee_list_dashboard.php:335
+msgid "Reports"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:158
+msgid "PIN"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:159 inc/booking_in_calender.php:47
+#: inc/csv_export.php:25
+msgid "Full Name"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:164 inc/attendee_list_dashboard.php:340
+#: inc/attendee_list_dashboard.php:352 inc/booking_in_calender.php:52
+#: inc/csv_export.php:37
+msgid "Item"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:166 inc/booking_in_calender.php:54
+#: inc/csv_export.php:40
+msgid "Order ID"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:168 inc/booking_in_calender.php:56
+#: inc/csv_export.php:43
+msgid "Start Datetime"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:169 inc/booking_in_calender.php:57
+#: inc/csv_export.php:46
+msgid "End Datetime"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:176 inc/booking_in_calender.php:61
+#: inc/csv_export.php:58
+msgid "Paid Amount"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:181 inc/woocommerce/class-status.php:64
+msgid "Action"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:238 inc/attendee_list_dashboard.php:247
+#: templates/pdf-templates/default/default.php:143
+msgid "Extra Services:"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:281
+msgid "View"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:289
+msgid "Download Pdf."
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:310
+msgid "Total "
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:312
+msgid " Data Found"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:315
+msgid "Showing "
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:317
+msgid " Data"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:321
+msgid "Export Reports"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:339
+msgid "Filter List By:"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:341 inc/booking_in_calender.php:46
+#: inc/csv_export.php:22
+msgid "ID"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:343
+msgid "Order"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:354 inc/booking_in_calender.php:137
+msgid "Select Item"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:372
+msgid "From"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:375
+msgid "To"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:386
+msgid "Pickup Location"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:388
+msgid "Select Pickup Location"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:398
+msgid "Drop-off Location"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:400
+msgid "Select Drop-off Location"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:422 inc/booking_in_calender.php:153
+msgid "Filter"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:449
+msgid "No data found!"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:489
+msgid "Please wait! Attendee data synchronizing from order data"
+msgstr ""
+
+#: inc/attendee_list_dashboard.php:688
+msgid "Sorry, No data found!"
+msgstr ""
+
+#: inc/booking_in_calender.php:127 inc/booking_in_calender.php:128
+#: inc/booking_in_calender.php:168
+msgid "Booking  Calender"
+msgstr ""
+
+#: inc/booking_in_calender.php:173
+msgid "Sunday"
+msgstr ""
+
+#: inc/booking_in_calender.php:174
+msgid "Monday"
+msgstr ""
+
+#: inc/booking_in_calender.php:175
+msgid "Tuesday"
+msgstr ""
+
+#: inc/booking_in_calender.php:176
+msgid "Wednesday"
+msgstr ""
+
+#: inc/booking_in_calender.php:177
+msgid "Thursday"
+msgstr ""
+
+#: inc/booking_in_calender.php:178
+msgid "Friday"
+msgstr ""
+
+#: inc/booking_in_calender.php:179
+msgid "Saturday"
+msgstr ""
+
+#: inc/booking_in_calender.php:264
+msgid "Pre Year"
+msgstr ""
+
+#: inc/booking_in_calender.php:270
+msgid "Pre Month"
+msgstr ""
+
+#: inc/booking_in_calender.php:287
+msgid "Next Month"
+msgstr ""
+
+#: inc/booking_in_calender.php:293
+msgid "Next Year"
+msgstr ""
+
+#: inc/class-email-function.php:25 inc/class-email-function.php:83
+msgid "Your order has been received!"
+msgstr ""
+
+#: inc/class-email-function.php:117
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: inc/class-email-function.php:121
+#: templates/pdf-templates/default/default.php:159
+msgid "Order Information"
+msgstr ""
+
+#: inc/class-email-function.php:126
+msgid "Order number:"
+msgstr ""
+
+#: inc/class-email-function.php:130
+msgid "Name:"
+msgstr ""
+
+#: inc/class-email-function.php:134
+msgid "Email:"
+msgstr ""
+
+#: inc/class-email-function.php:138
+msgid "Payment method:"
+msgstr ""
+
+#: inc/class-email-function.php:142
+msgid "Status:"
+msgstr ""
+
+#: inc/class-email-function.php:150
+msgid "Item Information"
+msgstr ""
+
+#: inc/class-email-function.php:155
+#: templates/pdf-templates/default/default.php:93
+msgid "Item Name:"
+msgstr ""
+
+#: inc/class-email-function.php:159
+msgid "Item Type:"
+msgstr ""
+
+#: inc/class-email-function.php:164
+msgid "Package:"
+msgstr ""
+
+#: inc/class-email-function.php:170
+#: templates/pdf-templates/default/default.php:138
+msgid "Rent Information:"
+msgstr ""
+
+#: inc/class-email-function.php:191
+#: templates/pdf-templates/default/default.php:132
+msgid "Room Information:"
+msgstr ""
+
+#: inc/class-email-function.php:211
+msgid "Extra Service Information:"
+msgstr ""
+
+#: inc/class-email-function.php:256
+msgid "Start Date and Time:"
+msgstr ""
+
+#: inc/class-email-function.php:260
+msgid "End Date and Time:"
+msgstr ""
+
+#: inc/class-email-function.php:265
+#: templates/pdf-templates/default/default.php:126
+msgid "Dress Size:"
+msgstr ""
+
+#: inc/class-email-function.php:270
+#: templates/pdf-templates/default/default.php:172
+msgid "Duration Cost:"
+msgstr ""
+
+#: inc/class-email-function.php:274
+msgid "Resource Cost:"
+msgstr ""
+
+#: inc/class-email-function.php:278
+msgid "Total Cost:"
+msgstr ""
+
+#: inc/functions.php:52
+msgid "Reviews"
+msgstr ""
+
+#: inc/functions.php:151
+msgid "no"
+msgstr ""
+
+#: inc/functions.php:156
+msgid "MagePeople PDF Support plugin is required."
+msgstr ""
+
+#: inc/functions.php:156 inc/woocommerce/class-status.php:32
+#: inc/woocommerce/class-status.php:49
+msgid "Install"
+msgstr ""
+
+#: inc/functions.php:164
+msgid "MagePeople PDF Support plugin is not activated."
+msgstr ""
+
+#: inc/functions.php:164 inc/woocommerce/class-status.php:35
+#: inc/woocommerce/class-status.php:52
+msgid "Activate"
+msgstr ""
+
+#: inc/gateway/stripe_charge.php:166
+msgid "Payment successful, redirecting..."
+msgstr ""
+
+#: inc/gateway/stripe_form.php:27
+msgid "Credit or debit card"
+msgstr ""
+
+#: inc/gateway/stripe_form.php:35
+msgid "Pay Now"
+msgstr ""
+
+#: inc/rbfw_cpt.php:11 inc/rbfw_cpt.php:12 inc/rbfw_cpt.php:13
+#: inc/rbfw_cpt.php:14
+msgid "RBFW Booking"
+msgstr ""
+
+#: inc/rbfw_cpt.php:51 inc/rbfw_cpt.php:52 inc/rbfw_cpt.php:53
+#: inc/rbfw_cpt.php:54
+msgid "RBFW Extra Services"
+msgstr ""
+
+#: inc/rbfw_pdf.php:25
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/rbfw_pdf.php:39 inc/rbfw_pdf.php:40 inc/rbfw_pdf.php:300
+msgid "Booking_Receipt_"
+msgstr ""
+
+#: inc/rbfw_pdf.php:296
+msgid "Invalid order id provided"
+msgstr ""
+
+#: inc/rbfw_pdf.php:392
+msgid "Attendee Information"
+msgstr ""
+
+#: inc/rbfw_pdf.php:397
+msgid "Name: "
+msgstr ""
+
+#: inc/rbfw_pdf.php:401
+msgid "Email: "
+msgstr ""
+
+#: inc/rbfw_pdf.php:405
+msgid "Phone: "
+msgstr ""
+
+#: inc/rbfw_pdf.php:409
+msgid "Address: "
+msgstr ""
+
+#: inc/rbfw_pdf.php:445 inc/rbfw_pdf.php:462
+msgid "Download Booking Receipt"
+msgstr ""
+
+#: inc/review_functions.php:56
+msgid "Reply"
+msgstr ""
+
+#: inc/review_functions.php:120
+msgid "Reviewer Name *"
+msgstr ""
+
+#: inc/review_functions.php:125
+msgid "Reviewer Email *"
+msgstr ""
+
+#: inc/review_functions.php:146
+msgid "Review Title *"
+msgstr ""
+
+#: inc/review_functions.php:149
+msgid "Review Description *"
+msgstr ""
+
+#: inc/review_functions.php:167
+msgid "Submit Review"
+msgstr ""
+
+#: inc/review_functions.php:202
+msgid "Review Rating"
+msgstr ""
+
+#: inc/review_functions.php:225
+msgid "Error: You did not add a rating. Hit the Back button on your Web browser and resubmit your review with a rating."
+msgstr ""
+
+#: inc/review_functions.php:248
+msgid "Error: Review title is required. Hit the Back button on your Web browser and resubmit your review with a review title."
+msgstr ""
+
+#: inc/review_functions.php:296
+msgid "Rating Score"
+msgstr ""
+
+#: inc/review_functions.php:297
+msgid "Total Reviews"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:24 inc/woocommerce/class-meta.php:62
+msgid " Tax"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:34
+msgid " Tax Status"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:35
+msgid "Please Select Tax Status"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:40
+msgid "Taxable"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:41
+msgid "Shipping only"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:42
+msgid "None"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:47
+msgid " Tax Class"
+msgstr ""
+
+#: inc/woocommerce/class-meta.php:48
+msgid "Please Select Tax Class"
+msgstr ""
+
+#: inc/woocommerce/class-status.php:24
+msgid "Status"
+msgstr ""
+
+#: inc/woocommerce/class-status.php:38 inc/woocommerce/class-status.php:55
+msgid "Activated"
+msgstr ""
+
+#: inc/woocommerce/class-status.php:59
+msgid "Booking and Rental Manager for WooCommerce Required Plugin"
+msgstr ""
+
+#: inc/woocommerce/class-status.php:63
+msgid "Plugin Name"
+msgstr ""
+
+#: inc/woocommerce/class-status.php:69
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:71
+#: inc/woocommerce/rbfw_show_cart_function.php:92
+msgid "Check-In Date"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:72
+#: inc/woocommerce/rbfw_show_cart_function.php:99
+msgid "Check-Out Date"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:73
+#: inc/woocommerce/rbfw_show_cart_function.php:106
+msgid "Package"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:100
+msgid "Room Information"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:130
+#: inc/woocommerce/rbfw_after_checkout_function.php:235
+msgid "Service Information"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:137
+#: inc/woocommerce/rbfw_after_checkout_function.php:242
+#: inc/woocommerce/rbfw_show_cart_function.php:161
+#: inc/woocommerce/rbfw_show_cart_function.php:236
+msgid "Duration Cost"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:138
+#: inc/woocommerce/rbfw_after_checkout_function.php:243
+#: inc/woocommerce/rbfw_show_cart_function.php:168
+#: inc/woocommerce/rbfw_show_cart_function.php:243
+msgid "Resource Cost"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:178
+#: inc/woocommerce/rbfw_show_cart_function.php:182
+msgid "Pick-up Date & Time"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:205
+msgid "Rent Information"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:271
+#: inc/woocommerce/rbfw_show_cart_function.php:285
+msgid "Service Name"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:272
+msgid "Service Qty"
+msgstr ""
+
+#: inc/woocommerce/rbfw_after_checkout_function.php:273
+msgid "Service Price"
+msgstr ""
+
+#: inc/woocommerce/rbfw_show_cart_function.php:254
+msgid "Dress Size"
+msgstr ""
+
+#: inc/woocommerce/rbfw_show_cart_function.php:266
+msgid "Pickup Date & Time"
+msgstr ""
+
+#: inc/woocommerce/rbfw_show_cart_function.php:270
+msgid "Drop-off Date & Time"
+msgstr ""
+
+#: inc/woocommerce/rbfw_show_cart_function.php:274
+msgid "Total: "
+msgstr ""
+
+#: inc/woocommerce/rbfw_wc_notice.php:26
+msgid "Please install or activate the WooCommerce plugin. "
+msgstr ""
+
+#: license/EDD_SL_Plugin_Updater.php:250
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: license/EDD_SL_Plugin_Updater.php:258
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: license/EDD_SL_Plugin_Updater.php:502
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: license/EDD_SL_Plugin_Updater.php:502
+msgid "Error"
+msgstr ""
+
+#: license/main.php:10
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: license/main.php:15
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: license/main.php:18
+msgid "Invalid license."
+msgstr ""
+
+#: license/main.php:22
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: license/main.php:25
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: license/main.php:28
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: license/main.php:31 license/main.php:70
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: license/main.php:137 license/main.php:147
+msgid "Active"
+msgstr ""
+
+#: license/main.php:139 license/main.php:144
+msgid "Deactive"
+msgstr ""
+
+#: license/main.php:180
+msgid "Please Enter the License Key"
+msgstr ""
+
+#: rent-pro.php:59
+msgid "Booking and Rental Manager Pro is requires Booking and Rental Manager free version to be installed and active."
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:88
+msgid "Booking Information"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:99
+msgid "Start Date & Time:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:103
+msgid "End Date & Time:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:108
+msgid "Pick-up Date & Time:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:116
+msgid "Pickup Point:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:120
+msgid "Drop-off Point:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:164
+msgid "PIN:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:168
+msgid "Order ID:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:176
+msgid "Extra Services Cost:"
+msgstr ""
+
+#: templates/pdf-templates/default/default.php:180
+msgid "Total:"
+msgstr ""
+
+#: templates/review/review.php:10
+msgid "No Review Yet"
+msgstr ""
+
+#: templates/review/review.php:10
+msgid "1 Review"
+msgstr ""
+
+#: templates/review/review.php:10
+msgid "% Reviews"
+msgstr ""
+
+#: templates/review/review.php:28
+msgid "Reviews are closed"
+msgstr ""
+
+#: templates/review/review.php:41
+msgid "Write a Review"
+msgstr ""
+
+#: templates/review/review.php:44
+msgid "Your email address will not be published."
+msgstr ""
+
+#: templates/review/review.php:44
+msgid " Required Fields are Marked"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Booking and Rental Manager Pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Additional features of Booking and Rental Manager plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MagePeople Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.mage-people.com/"
+msgstr ""
