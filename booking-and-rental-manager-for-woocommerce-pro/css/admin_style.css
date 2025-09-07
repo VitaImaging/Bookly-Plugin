@@ -1,0 +1,1513 @@
+div#mep_event_fbc_r ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    margin: 0 0 5px 0;
+}
+
+div#mep_event_fbc_r ul li {
+    display: inline-block;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    text-align: center;
+}
+.rental-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;           /* Remove padding */
+    margin: 0;            /* Remove margin */
+    font-family: 'Arial', sans-serif; /* Change font */
+}
+
+.rental-list li {
+    background-color: #f0f8ff;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin: 1px 0;
+    padding: 5px;
+    transition: background 0.3s;
+}
+
+.rental-list li:hover {
+    background-color: #e0f7fa; /* Change color on hover */
+}
+
+
+li.mep-fbc-label input,
+li.mep-fbc-id input {
+    width: 230px!important;
+    height: 30px;
+}
+
+li.mep-fbc-type select {
+    width: 180px!important;
+    padding: 0;
+    height: 30px;
+    display: block;
+}
+
+li.mep-fbc-remove {
+    text-align: right!important;
+}
+
+li.mep-fbc-remove a {
+    float: right!important;
+    font-size: 15px!important;
+    border-radius: 0!important;
+    color: red!important;
+    border-color: red!important;
+    padding: 0 5px!important;
+    margin-top: 3px!important;
+    height: 26px!important;
+    margin-left: 10px!important;
+}
+
+.attendee_filter_section {
+    padding: 10px;
+    border: 2px solid #ddd;
+    background-color: #00328014;
+}
+
+.attendee_filter_section ul:first-child {
+    background-color: #00328014;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.attendee_filter_section ul {
+    padding: 0;
+    margin: 5px 0 0 0;
+    list-style: none;
+    position: relative;
+}
+
+.attendee_filter_section ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+li.mep_re_datelist_label {
+    display: none!important;
+}
+
+button#event_attendee_filter_btn {
+    background: #016087;
+    border: 0;
+    color: #fff;
+    padding: 6px 20px;
+    /* position: absolute;
+    right: 0;
+    top: 3px; */
+}
+
+ul.attendee_stat {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+
+ul.attendee_stat li {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
+
+li.showing_attendee {
+    text-align: center!important;
+    font-size: 15px;
+}
+
+li.attendee_export_btn {
+    text-align: right!important;
+}
+
+li.total_attendee {
+    font-size: 15px;
+}
+
+h5.mep-processing {
+    background: #fff;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    padding: 25px;
+    border: 1px solid;
+}
+
+a.mep_export_csv {
+    background: #078455;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span.mep_del_attendee {
+    color: red;
+    cursor: pointer;
+}
+
+div#mep_wailtlist_email_send_section {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    width: 600px;
+    margin: 0 auto;
+}
+
+div#mep_wailtlist_email_send_section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+div#mep_wailtlist_email_send_section ul li {
+    padding: 0px;
+    margin: 20px;
+    border-bottom: 1px dashed #ddd;
+}
+
+div#mep_wailtlist_email_send_section ul li span.mep-section-name {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+div#mep_wailtlist_email_send_section ul li span.mep-section-data {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+div#mep_wailtlist_email_send_section ul li input,
+div#mep_wailtlist_email_send_section ul li select {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 0;
+    /* background: #333; */
+}
+
+div#mep_wailtlist_email_send_section ul li button {
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
+    display: block;
+    background: #0177ba;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+span.mep_success {
+    color: green;
+    text-align: center;
+    display: block;
+}
+
+.attendee_filter_section ul {
+    padding: 0;
+    margin: 5px 0 0 0;
+    list-style: none;
+    position: relative;
+}
+
+li.mep_re_datelist_label {
+    display: none!important;
+}
+
+button#event_attendee_filter_btn {
+    background: #016087;
+    border: 0;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#event_attendee_filter_btn:hover {
+    background: #004d6b;
+}
+
+ul.attendee_stat {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+
+ul.attendee_stat li {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
+
+li.showing_attendee {
+    text-align: center!important;
+    font-size: 15px;
+}
+
+li.attendee_export_btn {
+    text-align: right!important;
+}
+
+li.total_attendee {
+    font-size: 15px;
+}
+
+h5.mep-processing {
+    background: #fff;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    padding: 25px;
+    border: 1px solid;
+}
+
+span.mep_del_attendee {
+    color: red;
+    cursor: pointer;
+}
+
+.mep_warning {
+    background: #fff3e2;
+    border: 5px solid orange;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+    margin: 10px 0;
+    color: orange;
+}
+
+.booking_day_table {
+    margin: 10px 0 0 0;
+}
+
+.booking_dade_table .mDisabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+    background-color: #F2F2F2;
+    color: #777;
+}
+
+.booking_dade_table .mActive {}
+
+.booking_dade_table .allCenter {
+    display: block;
+}
+
+.booking_dade_table .current_date {
+    background-color: #ffa500;
+    color: #ff0000;
+}
+
+div.booking_calender_area {
+    margin: 20px 0 0 0;
+}
+
+div.booking_calender_area a {
+    text-decoration: none;
+    color: #000;
+}
+
+div.booking_calender_area h2 {
+    margin: 0 0 20px 0;
+}
+
+div.booking_calender_area table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    position: relative;
+}
+#rbfw_bc_details_result div.order_list_area table{
+    table-layout: auto;
+}
+
+.booking_calender_area .booking_calenter_table tr{background: #ffa500;}
+
+div.booking_calender_area table td {
+    border: 1px solid #ddd;
+    vertical-align: top;
+    text-align: center;
+}
+
+[data-date].active {
+    color: #6B003E;
+}
+
+.mp_date_exit_event_count {
+    background-color: #0078f9;
+    color: #fff;
+    display: block;
+}
+
+span.mp_remove_icon {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: red;
+    color: #fff;
+}
+
+#event_attendee_list_table_item table thead {
+    background: #d7d7d7;
+}
+
+#event_attendee_list_table_item table thead th {
+    color: #333;
+    font-size:12px;
+}
+
+#event_attendee_list_table_item table tbody tr a,
+#event_attendee_list_table_item table tbody tr .mep_del_attendee {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+}
+
+#event_attendee_list_table_item table tbody tr a:nth-child(1) {
+    background-color: #22D02D;
+}
+
+#event_attendee_list_table_item table tbody tr a:nth-child(2) {
+    background-color: #2e22d0;
+}
+
+#event_attendee_list_table_item table tbody tr a:nth-child(3) {
+    background-color: #d06822;
+}
+
+#event_attendee_list_table_item table tbody tr .mep_del_attendee {
+    background-color: #d02222;
+}
+
+#event_attendee_list_table_item table.striped>tbody> :nth-child(2n+1) {
+    background-color: #00328014;
+}
+
+.attendee_filter label {
+    display: inline-block;
+}
+
+.attendee_filter label span {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.attendee_filter_btn_wrap {
+    margin-top: 15px;
+}
+
+.rbfw-loader {
+    width: 50px;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+}
+
+.attendee_filter_section .event_filter {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#event_attendee_list_table_item {
+    overflow-x: scroll;
+}
+
+.text_center {
+    text-align: center;
+}
+
+
+/* Booking Calender Css*/
+
+div.booking_calender_area table tbody {
+    background: #fff;
+}
+
+[data-date] {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #0A4B78;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px;
+}
+
+table.booking_day_table th span {
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #0A4B78;
+    font-weight: bold;
+    display: block;
+    margin: 5px;
+}
+
+.booking_dade_table .allCenter {
+    height: auto;
+    margin: 5px 10px 10px;
+    position: relative;
+}
+
+div.item_class_0 {
+    background-color: rgb(29, 119, 189);
+    color: rgb(212, 247, 240);
+    transition: transform 0.2s ease 0s, transform 0.2s ease 0s;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.item_class_0:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+div.item_class_1 {
+    background-color: rgb(203, 213, 67);
+    color: rgb(0, 105, 59);
+    transition: transform 0.2s ease 0s, transform 0.2s ease 0s;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.item_class_1:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+div.item_class_2 {
+    background-color: rgb(109, 167, 66);
+    color: rgb(242, 247, 168);
+    transition: transform 0.2s ease 0s, transform 0.2s ease 0s;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.item_class_2:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+div.item_class_3 {
+    background-color: rgb(128, 203, 216);
+    color: rgb(12, 85, 114);
+    transition: transform 0.2s ease 0s, transform 0.2s ease 0s;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.item_class_3:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+div.item_class_4 {
+    background-color: rgb(206, 206, 206);
+    color: rgb(12, 85, 114);
+    transition: transform 0.2s ease 0s, transform 0.2s ease 0s;
+    font-weight: normal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table.booking_dade_table th,
+table.booking_dade_table td {
+    border: 0 !important;
+}
+
+.mp_date_exit_event_count {
+    width: auto !important;
+    height: auto !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+    right: 0px;
+}
+
+span.class_post_count {
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 0 5px;
+}
+
+.booking_dade_table td {
+    font-size: 16px;
+}
+
+.booking_dade_table .current_date {
+    color: #fff !important;
+}
+
+.order_list_area table {
+    border: 1px solid #d3d3d3;
+}
+
+.order_list_area table thead {
+    background: #161b37;
+    color: #fff
+}
+
+.order_list_area table th,
+.order_list_area table td {
+    padding: 8px;
+}
+
+div.order_list_area {
+    background: #fff;
+    border-radius: 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.booking_dade_table div.order_list_area tbody tr:nth-child(odd) {
+    border-bottom: 1px solid #d3d3d3;
+    background: #e5e5e5;
+}
+
+.booking_dade_table div.order_list_area tbody tr:nth-child(even) {
+    border-bottom: 1px solid #d3d3d3;
+    background: #f5f5f5;
+}
+
+.booking_dade_table div.order_list_area th {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.booking_dade_table div.order_list_area td {
+    height: auto;
+    font-size: 14px;
+    padding: 5px;
+    color: #605d5d;
+    font-weight: normal;
+}
+
+span.close_order_list_area {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    z-index: 1111;
+    border-radius: 0;
+    cursor: pointer;
+    background: #f46d6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter_area label {
+    vertical-align: top;
+    display: inline-block;
+    margin: 5px;
+}
+
+.filter_area button {
+    background: #016087;
+    border: 0;
+    color: #fff;
+    padding: 6px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.filter_area {
+    padding: 10px;
+    border: 2px solid #ddd;
+    background-color: #00328014;
+    margin-top: 20px;
+}
+
+.rbfw_plugin_btn {
+    background-color: #22D02D;
+    border-radius: 5px;
+    border: 1px solid #22D02D;
+    color: #fff;
+    transition: 02s;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    padding: 0 10px;
+}
+
+
+/* Custom Tab */
+
+.wbtm_content_item.active {
+    display: block;
+}
+
+.wbtm_content_item.hide {
+    display: none;
+}
+
+.list {
+    width: 100px;
+    height: 100px;
+    background: #EEE;
+    padding: 10px;
+}
+
+.wbtm_btn_primary {
+    background: #2073aa;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.wbtm_search_form_inner {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.wbtm_tab_link_wrap li {
+    display: inline-block;
+}
+
+.wbtm_tab_link_wrap li button {
+    cursor: pointer;
+}
+
+.wbtm_tab_link_wrap li button.wbtm_tab_active {
+    background: #519289!important;
+    cursor: initial;
+    border: 1px solid #2173b4;
+}
+
+.do-flex {
+    display: flex;
+}
+
+.do-flex .bus_img {
+    width: 10%;
+}
+
+.do-flex .left {
+    width: 45%;
+}
+
+.do-flex .right {
+    width: 45%;
+}
+
+.do-flex .left>div {
+    width: 50%;
+}
+
+.do-flex .right>div {
+    width: 33.33%;
+}
+
+.do-flex .right div:last-child {
+    text-align: center;
+}
+
+.bus_list_header {
+    background: #ddd;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+.do-flex .bus_img img {
+    width: 88px;
+    border-radius: 5px;
+    border: 2px solid #009688;
+}
+
+.wbtm_bus_list_item_inner {
+    padding: 2px 10px;
+}
+
+.wbtm_bus_list_item .item_bottom {
+    display: flex;
+}
+
+.wbtm_bus_list_item .item_bottom>div {
+    width: 33.33%;
+}
+
+.wbtm_search_form_inner .select2-container {
+    z-index: initial!important;
+}
+
+.admin-bus-list .bus-img img {
+    width: 80px!important;
+    height: auto;
+}
+
+.wbtm-page-top {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wbtm-page-top-inner {
+    border: 1px solid #c8c8c8;
+    padding: 10px 20px 5px;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.wbtm-page-top-inner h3 {
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    margin: 0;
+    background: #f1f1f1;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.wbtm-admin-without-seat-plan-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Custom Tab END */
+
+.mage-no-seat .mage-no-seat-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.mage-no-seat .mage-no-seat-left,
+.mage-no-seat .mage-no-seat-right {
+    border: 1px solid #979797;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.mage-no-seat .mage-bus-short-info {
+    margin: 0;
+}
+
+.mage-no-seat .mage-bus-short-info th,
+.mage-no-seat .mage-bus-short-info td {
+    border: none;
+    text-align: left;
+    padding: 9px 15px;
+}
+
+.mage-no-seat .mage-bus-short-info th {
+    font-weight: 700;
+}
+
+.mage-no-seat .mage-bus-short-info th span,
+.mage-no-seat .mage-bus-short-info th i {
+    padding-right: 5px;
+    min-width: 21px;
+}
+
+.mage-seat-table {
+    width: 100%;
+}
+
+.wbtm_subscription_bus_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 0 15px 0 0;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.wbtm_subscription_bus_item .left {
+    display: flex;
+    align-items: center;
+}
+
+.wbtm_subscription_bus_item .left .bus-img {
+    margin-right: 10px;
+    width: 100px;
+}
+
+.wbtm_subscription_bus_item .left .bus-img img {
+    width: 100%;
+}
+
+.wbtm_subscription_bus_item .left .bus-title strong {
+    display: block;
+}
+
+.mage_customer_info_area .mage_hidden {
+    display: none!important;
+}
+
+.mage_customer_info_area .mage_form_list_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px;
+    background: #fff;
+}
+
+.mage_customer_info_area label {
+    width: calc(50% - 8px);
+}
+
+.mage_customer_info_area .mage_form_list_body input {
+    width: 100%;
+    height: 35px;
+}
+
+.mage_customer_info_area .mage_title {
+    background: #ddd;
+    padding: 10px;
+}
+
+.mage_customer_info_area .mage_title h5 {
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+.mtsa-form-select {
+    background-color: #ffffff!important;
+    border-color: #c0c0c0;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+}
+
+.wbtm-subscription-item-wrap {
+    margin-bottom: 10px;
+}
+
+.mtsa-form-select {
+    margin: 1px 0!important;
+}
+
+#mtsa-form-submit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wbtm_field_group #j_date {
+    padding: 0 5px;
+}
+
+.wbtm_btn_primary:disabled {
+    background: #83bbe1;
+    cursor: not-allowed;
+}
+
+
+/* New Reports */
+
+.wbbm_page_wrapper {
+    padding-right: 18px;
+}
+
+.wbbm_page_wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wbbm_page_wrapper table th,
+.wbbm_page_wrapper table td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.wbbm_page_wrapper table thead tr {
+    background: #95A5A6;
+}
+
+.wbbm_page_wrapper table thead tr th {
+    text-transform: uppercase;
+}
+
+.wbbm_page_wrapper .wbbm-main-table-order-wise>tbody>tr:nth-child(even) {
+    background: #dcdbdb;
+}
+
+
+/* .wbbm_page_wrapper .wbbm-main-table > tbody > tr:not(:last-child):hover { */
+
+.wbbm_page_wrapper .wbbm-main-table tbody tr:not(:last-child):hover {
+    background-color: #c3bfbf52;
+}
+
+.wbbm_page_wrapper table tbody td {
+    color: #000;
+    position: relative;
+}
+
+.wbbm_page_wrapper>table>tbody tr:last-child {
+    background-color: #d7e4e4;
+}
+
+
+/* .wbbm_page_wrapper .wbbm-main-table > tbody > tr:not(.wbbm_report_detail) {
+    cursor: pointer;
+} */
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:last-child td {
+    color: #3e3e3e;
+    font-weight: 700;
+    font-size: 1.1em;
+    background: #f1e58f;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr .wbbm_bus_detail--report {
+    position: relative;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td {
+    width: 20%;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td+td {
+    width: 45%;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td+td+td {
+    width: 15%;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td:last-child {
+    width: 20%;
+}
+
+.wbbm_page_filter_inner {
+    position: relative;
+    border: 1px solid #758889;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.sec-label {
+    position: absolute;
+    top: -10px;
+    background: #f1f1f1;
+    padding: 0px 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #758889;
+    text-transform: uppercase;
+}
+
+.wbbm_page_filter_wrapper {
+    margin-top: 50px;
+}
+
+.wbbm_page_wrapper label:not(.sec-label) {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.wbbm_page_wrapper .wbbm-form-inner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.wbbm_page_wrapper .wbbm-field-group {
+    flex-basis: 19%;
+}
+
+.wbbm_page_wrapper .wbbm-field-group select,
+.wbbm_page_wrapper .wbbm-field-group input:not([type="submit"]) {
+    width: 100%;
+    border: 1px solid #758889;
+}
+
+.wbbm_page_content_wrapper {
+    margin-top: 50px;
+}
+
+.wbbm_no_data_found {
+    color: #e91e63;
+    text-align: center;
+}
+
+.wbbm_btn_new {
+    padding: 7px 22px;
+    border: none;
+    background: #2473aa;
+    color: #fff;
+    border-radius: 5px;
+    outline: thin;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wbbm_page_filter_bottom .wbbm_btn_new {
+    flex-basis: 11%;
+}
+
+.wbbm_page_filter_top ul li {
+    display: inline-block;
+    border: 2px solid #c8c8c8;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.wbbm_page_filter_top ul li a {
+    padding: 12px;
+    background: #ddd;
+    border-radius: 5px;
+    color: #2473aa;
+    text-decoration: none;
+    display: block;
+}
+
+.filter_active,
+.filter_active a {
+    font-weight: 700;
+}
+
+.wbbm_report_detail {
+    display: none;
+}
+
+.wbbm_report_detail>td {
+    padding: 8px 15px!important;
+    background: #ffffe8;
+}
+
+.wbbm_report_detail_active {
+    background: #bdbdbd;
+}
+
+.wbbm_report_loading {
+    position: absolute;
+    left: 2px;
+    height: 26px;
+    top: 5px;
+    display: none;
+}
+
+.wbbm_report_detail thead tr {
+    background: #cfcfcf!important;
+}
+
+.wbbm_bus_detail--report button {
+    border: 1px solid #2473aa;
+    padding: 5px 8px;
+    color: #2473aa;
+    cursor: pointer;
+    margin-right: 2px;
+    min-width: 101px;
+}
+
+.action-btn-wrap {
+    margin-left: 23px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wbbm_bus_detail--report button:nth-of-type(1) {
+    margin-bottom: 1px;
+}
+
+.wbbm_bus_detail--report button:hover {
+    background: #2473aa;
+    color: #fff;
+}
+
+.wbbm_bus_detail--report button:focus {
+    outline-width: 2px;
+    outline-color: #2473aa;
+}
+
+.wbbm-report-heading {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.wbbm_page_filter_top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.reset-filter {
+    text-decoration: none;
+    background: #4b849f;
+    padding: 5px 10px;
+}
+
+#wbbm_report_table {
+    width: 100%;
+}
+
+.wbbm_page_wrapper .select2-container {
+    z-index: 11!important;
+}
+
+.event_filter_wrap {
+    display: flex;
+    margin: 0;
+}
+
+.event_filter_wrap li {
+    margin: 0;
+}
+
+.action-btn-wrap button {
+    border: 1px solid #2473aa;
+    padding: 5px 8px;
+    color: #2473aa;
+    border-radius: 3px;
+}
+
+.wbbm-table-top {
+    display: grid;
+    grid-template-columns: 1fr repeat(1, auto) 1fr;
+    grid-column-gap: 5px;
+    justify-items: center;
+    margin-bottom: 5px;
+}
+
+.wbbm-table-top>div:nth-child(1) {
+    grid-column-start: 2;
+}
+
+.wbbm-table-top>div:nth-child(2) {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.wbbm-table-top .left {
+    display: flex;
+    justify-content: flex-start;
+    color: #363636;
+    gap: 3px;
+}
+
+.wbbm-table-top .left .item {
+    background: #c7fdfd;
+    padding: 6px;
+    border: 1px solid #73e9e9;
+}
+
+.wbbm-table-top .left strong {
+    min-width: 130px;
+    display: inline-block;
+}
+
+.wbbm-table-top .left span {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: #f44336;
+}
+
+.action-btn-wrap button:focus {
+    outline-color: #47a96e;
+}
+
+.mep_report_amount tbody tr:last-child td {
+    border-top: 2px solid #c7c7c7;
+}
+
+.mep-tax-text {
+    color: #444;
+}
+
+
+/* New Reports END */
+
+div#mep_wailtlist_email_send_section {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    width: 600px;
+    margin: 0 auto;
+}
+
+div#mep_wailtlist_email_send_section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+div#mep_wailtlist_email_send_section ul li {
+    padding: 0px;
+    margin: 20px;
+    border-bottom: 1px dashed #ddd;
+}
+
+div#mep_wailtlist_email_send_section ul li span.mep-section-name {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+div#mep_wailtlist_email_send_section ul li span.mep-section-data {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+div#mep_wailtlist_email_send_section ul li input,
+div#mep_wailtlist_email_send_section ul li select {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 0;
+    /* background: #333; */
+}
+
+div#mep_wailtlist_email_send_section ul li button {
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
+    display: block;
+    background: #0177ba;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+span.mep_success {
+    color: green;
+    text-align: center;
+    display: block;
+}
+
+.attendee_filter_section {
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+.attendee_filter_section ul {
+    padding: 0;
+    margin: 5px 0 0 0;
+    list-style: none;
+    position: relative;
+}
+
+.attendee_filter_section ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+li.mep_re_datelist_label {
+    display: none!important;
+}
+
+button#event_attendee_filter_btn {
+    background: #016087;
+    border: 0;
+    color: #fff;
+    padding: 6px 20px;
+    /* position: absolute;
+    right: 0;
+    top: 3px; */
+}
+
+ul.attendee_stat {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+
+ul.attendee_stat li {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
+
+li.showing_attendee {
+    text-align: center!important;
+    font-size: 15px;
+}
+
+li.attendee_export_btn {
+    text-align: right!important;
+}
+
+li.total_attendee {
+    font-size: 15px;
+}
+
+h5.mep-processing {
+    background: #fff;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    padding: 25px;
+    border: 1px solid;
+}
+
+a.mep_export_csv {
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+}
+
+span.mep_del_attendee {
+    color: red;
+    cursor: pointer;
+}
+
+.mep_warning {
+    background: #fff3e2;
+    border: 5px solid orange;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+    margin: 10px 0;
+    color: orange;
+}
+
+#event_booking_filter_btn {
+    cursor: pointer;
+    display: inline-block;
+}
+
+div.booking_calender_area table td .rbfw_bcalendar_date {
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    font-family: initial;
+}
+
+.filter_area_label {
+    display: block;
+    font-weight: bold;
+    height: 20px;
+}
+
+.rbfw-bc-page-ph {
+    display: none;
+}
+
+.rbfw_review_approve_btn,
+.rbfw_review_unapprove_btn {
+    padding: 5px 8px;
+    border: 1px solid #0078f9;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.rbfw_d_none {
+    display: none;
+}
+
+.rbfw_review_status_btn_d_block {
+    display: inline-block !important;
+}
+
+.type-rbfw_item_reviews.status-pending th.check-column {
+    border-left: 4px solid #d63638;
+}
+
+.type-rbfw_item_reviews.status-pending td,
+.type-rbfw_item_reviews.status-pending th {
+    background-color: #fcf9e8;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1);
+}
+
+.rbfw-review-stars span {
+    margin-right: 0;
+    font-size: 14px;
+    display: inline;
+    color: #0bec39;
+}
+
+.rbfw-review-stars span.dashicons-star-empty {
+    color: #d3d3d3;
+}
+body table.calendar_ticket_details, body table.calendar_ticket_details td, body table.calendar_ticket_details td td{
+    border: none;
+    vertical-align: top;
+    text-align: left;
+}
+body table.calendar_ticket_details table.calendar_ticket_details{
+    margin-left: 10px;
+}

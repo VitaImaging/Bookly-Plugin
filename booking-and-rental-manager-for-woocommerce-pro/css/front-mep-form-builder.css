@@ -1,0 +1,318 @@
+.mefs-notification {
+    background: #ffbe303b;
+    color: #555 !important;
+    padding: 10px;
+    font-size: 13px !important;
+    color: #0073aa;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.mep-event-attendee--list {
+    max-width: 98%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+.mep-event-attendee--list .mep-event-attendee-list--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mep-event-attendee--list .mep-event-attendee-list--header #attendee--see-all {
+    color: #00b9eb;
+    border: none;
+    background: transparent;
+    font-size: .8em;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.mep-event-attendee--list .mep-event-attendee-list--header #attendee--see-all:hover,
+.mep-event-attendee--list .mep-event-attendee-list--header #attendee--see-all:focus {
+    text-decoration: initial;
+    border: none;
+    outline: none;
+}
+
+.mep-event-attendee--list .mep-event-attendee-list--header .header-tag {
+    font-size: 1.5em;
+}
+
+.mep-event-attendee--list .mep-event-attendee--inner {
+    overflow: hidden;
+}
+
+.mep-event-attendee--list .mep-event-attendee--inner .mep-event-attendee--item {
+    float: left;
+    width: 7%;
+    margin-right: 3.333%;
+    min-height: 156px;
+    text-align: center;
+}
+
+.mep-event-attendee--list .mep-event-attendee--inner .mep-event-attendee--item:nth-child(10n) {
+    margin-right: 0;
+}
+
+.mep-event-attendee--list .mep-event-attendee--inner .mep-event-attendee--item img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.mep-event-attendee--list .mep-event-attendee--inner .mep-event-attendee--item .attendee_name {
+    font-size: .8em;
+    line-height: 1em;
+    font-weight: 500;
+    color: #7f82af;
+    margin-top: 10px;
+}
+
+.mfb-form-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mfb-form-inner .mfb-form-group {
+    flex-basis: 49%;
+    margin-bottom: 20px;
+}
+
+.mfb-form-inner label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.mfb-form-inner input[type="text"] {
+    border-radius: 3px;
+}
+
+.mfb-form-inner input[type="submit"] {
+    background: #555;
+    padding: 15px;
+    border-radius: 3px;
+    text-transform: initial;
+}
+
+.mfb-form-inner .full-row {
+    flex-basis: 100%;
+}
+
+.mfb-form-inner input,
+.mfb-form-inner select {
+    width: 100%;
+    border: 1px solid #dcd7ca;
+    background: transparent;
+    padding: 1.5rem 1.8rem;
+    font-size: 14px;
+    color: #555;
+}
+
+.dNone {
+    display: none!important;
+}
+
+.term_condition_area {
+    background: #f2f2f2;
+    color: black;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .mep-event-attendee--list {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mep-event-attendee--list {
+        padding: 20px;
+    }
+    .mep-event-attendee--list .mep-event-attendee--inner .mep-event-attendee--item {
+        width: 20%;
+        margin-right: 6.66%;
+    }
+    .mep-event-attendee--list .mep-event-attendee--inner .mep-event-attendee--item:nth-child(10n) {
+        margin-right: 3.33%;
+    }
+    .mep-event-attendee--list .mep-event-attendee--inner .mep-event-attendee--item:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+
+
+/*****************/
+
+.user-info-sec h5 {
+    position: relative;
+}
+
+.user-info-sec h5 label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.user-info-sec h5 label input {
+    width: auto;
+}
+
+.user-info-sec h5 label input:focus {
+    outline: none;
+}
+
+.user-info-sec h5 label span {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+
+/**********Checkbox Radio*********/
+
+label.radio_label {
+    margin: 10px 0 !important;
+}
+
+.customRadioLabel {
+    font-size: var(--font-size-h6);
+    font-weight: var(--fw-medium);
+}
+
+.customRadioLabel input[type="radio"]~.formControl,
+.customRadioLabel input[type="radio"] {
+    display: none;
+}
+
+.customRadio {
+    padding: 3px 10px 0 30px;
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    min-width: 165px;
+    margin: 0 0 7px 0;
+}
+
+.customRadio::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #FFF;
+    border: 2px rgba(0, 0, 0, 0.5) solid;
+    ;
+    border-radius: 50%;
+}
+
+.customRadioLabel input[type="radio"]:checked~.formControl {
+    display: block;
+}
+
+.customRadioLabel input[type="radio"]:checked~.customRadio::after,
+.customRadio.active::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 10px;
+    width: 10px;
+    background-color: var(--theme-color);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    ;
+    border-radius: 50%;
+}
+
+.custom_label {
+    min-width: 200px;
+    margin: 0 15px 0 0;
+}
+
+.customCheckBoxArea {
+    display: -webkit-flex !important;
+    display: flex !important;
+}
+
+.customCheckBoxArea label {
+    margin: 0 15px 0 0;
+    min-width: 150px;
+}
+
+.customCheckbox {
+    padding: 3px 0 0 30px;
+    position: relative;
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.customCheckbox::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #FFF;
+    border: 2px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 2px;
+}
+
+.customCheckboxLabel {
+    padding: 0 0 10px 0;
+}
+
+.customCheckboxLabel input:checked~.customCheckbox::before {
+    border-color: #07c;
+    background: #07c;
+}
+
+.customCheckboxLabel input:focus~.customCheckbox::before {
+    border-color: #07C;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.3);
+    box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.3);
+}
+
+.customCheckboxLabel input:checked~.customCheckbox::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 4px;
+    height: 8px;
+    width: 16px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    z-index: 11;
+    background-color: transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.mpStyle label.term_condition_area,
+label.term_condition_area {
+    margin: 0 0 10px 0;
+    display: none;
+}
+
+label.term_condition_area a {
+    margin: 0 0 0 15px;
+}
+
+span.custom_input_area {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
